@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Tab Switching Shortcut",
+  "description": "Implementing a shortcut to switch between tabs in Chrome",
+  "version": "1.0",
+  "background": {
+    "service_worker": "tabswitch.js"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "commands": {
+    "next-tab": {
+      "suggested_key": "Ctrl+Right",
+      "description": "Switch to the next tab"
+    },
+    "previous-tab": {
+      "suggested_key": "Ctrl+Left",
+      "description": "Switch to the previous tab"
+    },
+    "scroll-up": {
+      "suggested_key": "Ctrl+Up",
+      "description": "Scroll up"
+    },
+    "scroll-down": {
+      "suggested_key": "Ctrl+Down",
+      "description": "Scroll down"
+    }
+  }
+}
