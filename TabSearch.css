@@ -1,0 +1,31 @@
+html {
+    width: 300px;
+    border-radius: 5px;
+}
+
+#query {
+    width: 270px;
+    margin: 5px 10px;
+    padding: 2px 5px;
+    border-radius: 10px;
+    font-size: 2em;
+}
+.search-result {
+    border-radius: 3px;
+    /* margin: 5px 10px; */
+    padding: 2px 5px;
+    font-size: 1.2em;
+}
+.search-result:hover {
+    background-color: #f0f0f0;
+    /* padding: 2px 5px; */
+}
+
+.search-result:focus {
+    background-color: #f0f0f0;
+    /* padding: 2px 5px; */
+}
+
+.hide {
+    display: none;
+}

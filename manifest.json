@@ -6,7 +6,16 @@
   "background": {
     "service_worker": "tabswitch.js"
   },
-  "permissions": ["scripting", "activeTab"],
+  "permissions": ["scripting", "activeTab", "tabs"],
+  "icons": {
+    "16": "icon/TabSwitch16.png",
+    "48": "icon/TabSwitch48.png",
+    "128": "icon/TabSwitch128.png"
+  },
+  "action": {
+    "default_popup": "TabSearch.html",
+    "default_icon": "icon/TabSwitch128.png"
+  },
   "commands": {
     "next-tab": {
       "suggested_key": "Ctrl+Right",
@@ -23,6 +32,7 @@
     "scroll-down": {
       "suggested_key": "Ctrl+Down",
       "description": "Scroll down"
-    }
+    },
+    "_execute_action": {}
   }
 }

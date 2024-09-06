@@ -36,28 +36,26 @@ chrome.commands.onCommand.addListener(async (command) => {
     }
     chrome.tabs.update(allTabs[nextTabIndex].id, { active: true });
     // console.log("Next");
-  }
-
-  if (command == "previous-tab" && allTabs) {
+  } else if (command == "previous-tab" && allTabs) {
     let prevTabIndex = currentTab.index - 1;
     if (prevTabIndex < 0) {
       prevTabIndex = allTabs.length - 1;
     }
     chrome.tabs.update(allTabs[prevTabIndex].id, { active: true });
     // console.log("BAck");
-  }
-  if (command == "scroll-up") {
+  } else if (command == "scroll-up") {
     chrome.scripting.executeScript({
       target: { tabId: currentTab.id },
       args: [-600],
       func: scroll,
     });
-  }
-  if (command == "scroll-down") {
+  } else if (command == "scroll-down") {
     chrome.scripting.executeScript({
       target: { tabId: currentTab.id },
       args: [600],
       func: scroll,
     });
+  } else if (command == "open-popup") {
+    chrome.action.openPopup();
   }
 });
