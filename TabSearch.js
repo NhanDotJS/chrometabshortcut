@@ -66,7 +66,11 @@ window.addEventListener("keydown", (event) => {
         tabs[0].focus();
       }
     } else {
-      tabs[0].focus();
+      try {
+        tabs[0].focus();
+      } catch (error) {
+        console.log(error);
+      }
     }
   } else if (event.key === "ArrowUp") {
     const tabs = tabCardContainer.querySelectorAll(".search-result:not(.hide)");
