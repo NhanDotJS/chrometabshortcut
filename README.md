@@ -7,6 +7,16 @@ Added functionality to be able to search for tabs. Bind key in chrome://extensio
 ## TODO:
 - [ ] Fuzzy search instead of normal search
 
+## Installation instructions while it is being reviewed by Chrome Web Store:
+- Clone the repository
+- Go to chrome://extensions/
+- Enable Developer mode
+- Click on Load unpacked
+- Select the folder where the repository is cloned
+- Go to chrome://extensions/shortcuts and change/map the key bindings
+
+## Privacy Policy
+
 So for anyone come here for Privacy Policy, I don't collect any data but here it is:
 - I don't collect any data
 - I don't store any data
