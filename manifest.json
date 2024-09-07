@@ -25,16 +25,25 @@
       "description": "Switch to the next tab"
     },
     "previous-tab": {
-      "windows": "Alt+Left",
-      "mac": "Ctrl+Left"
+      "suggested_key": {
+        "windows": "Alt+Left",
+        "mac": "Ctrl+Left"
+      },
+      "description": "Switch to the previous tab"
     },
     "scroll-up": {
-      "windows": "Alt+Up",
-      "mac": "Ctrl+Up"
+      "suggested_key": {
+        "windows": "Alt+Up",
+        "mac": "Ctrl+Up"
+      },
+      "description": "Scroll up"
     },
     "scroll-down": {
-      "windows": "Alt+Down",
-      "mac": "Ctrl+Down"
+      "suggested_key": {
+        "windows": "Alt+Down",
+        "mac": "Ctrl+Down"
+      },
+      "description": "Scroll down"
     },
     "_execute_action": {}
   }
