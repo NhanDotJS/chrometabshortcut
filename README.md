@@ -4,6 +4,8 @@ This extension enable to quickly navigate between tabs using keyboard shortcuts.
 
 Added functionality to be able to search for tabs. Bind key in chrome://extensions/shortcuts.
 
+## TODO:
+- [ ] Fuzzy search instead of normal search
 
 So for anyone come here for Privacy Policy, I don't collect any data but here it is:
 - I don't collect any data

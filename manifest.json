@@ -18,20 +18,23 @@
   },
   "commands": {
     "next-tab": {
-      "suggested_key": "Ctrl+Right",
+      "suggested_key": {
+        "windows": "Alt+Right",
+        "mac": "Ctrl+Right"
+      },
       "description": "Switch to the next tab"
     },
     "previous-tab": {
-      "suggested_key": "Ctrl+Left",
-      "description": "Switch to the previous tab"
+      "windows": "Alt+Left",
+      "mac": "Ctrl+Left"
     },
     "scroll-up": {
-      "suggested_key": "Ctrl+Up",
-      "description": "Scroll up"
+      "windows": "Alt+Up",
+      "mac": "Ctrl+Up"
     },
     "scroll-down": {
-      "suggested_key": "Ctrl+Down",
-      "description": "Scroll down"
+      "windows": "Alt+Down",
+      "mac": "Ctrl+Down"
     },
     "_execute_action": {}
   }
