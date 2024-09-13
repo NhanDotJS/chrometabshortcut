@@ -30,3 +30,7 @@ So for anyone come here for Privacy Policy, I don't collect any data but here it
 - I don't know what to do with data
 - I don't have time for data
 - I don't have money for data
+
+---
+
+This project was help bundled with [Chrome Extension CLI](https://github.com/dutiyesh/chrome-extension-cli)
